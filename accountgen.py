@@ -78,10 +78,6 @@ def gen():
         time.sleep(1)
 
 
-        driver.find_element_by_css_selector('input[type="checkbox"]').click()
-        time.sleep(1)
-
-
         driver.find_elements_by_tag_name('button')[0].click()
         print('Verify captcha and take the Token if you want. [You need to do it manually]')
         print('If you want account with verified email you need to do it manually.')
